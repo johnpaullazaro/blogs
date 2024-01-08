@@ -45,7 +45,7 @@ body
 
  
 > [!TIP]
-> Helpful advice for doing things better or more easily.
+> Please think a more descriptive variable name as possible
 
 
 
