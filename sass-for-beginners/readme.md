@@ -40,13 +40,16 @@ Then we have used the variable $primary-color in the body to represent the backg
 </tr>
 <tr>
 <td>
+ 
 ```css
 $primary-color: #333
 body 
   background-color: $primary-color
 ```
+ 
 </td>
 <td>
+ 
 ```css 
 $primary-color: #333;
 
@@ -54,6 +57,7 @@ body {
   background-color: $primary-color;
 }
 ```
+
 </td>
 </tr>
 </table>
