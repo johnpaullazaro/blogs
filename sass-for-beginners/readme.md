@@ -1,4 +1,4 @@
-![Alt text](https://assets.digitalocean.com/articles/alligator/boo.svg "a title")
+![Alt text](https://sass-lang.com/assets/img/logos/logo.svg "a title")
 
 # Learn SASS
 In this article, you will learn SASS and its basic features such as variables, inheritance and mixins.
