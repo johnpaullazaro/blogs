@@ -28,7 +28,8 @@ sass source/stylesheets/index.scss build/stylesheets/index.css
 
 ## Variables
 Creating your first variable in SASS. 
-Variable is basically a holder of value that you can assign to different attribute everytime you needed the value of it
+Variable is basically a holder of value that you can assign to different attribute everytime you needed the value of it.
+styles.sass
 ```sass
 $primary-color: #333
 
