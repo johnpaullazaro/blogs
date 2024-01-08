@@ -5,6 +5,8 @@ In this article, you will learn SASS and its basic features such as variables, i
 This article is for beginners who doesnt have an idea on SASS / SCSS
 
 
+
+
 ## How to install?
 To get started with SASS you have to install it.
 
@@ -13,6 +15,8 @@ Via NPM
 ```
 npm install -g sass
 ```
+
+
 
 ## Generate CSS from SASS
 ```
