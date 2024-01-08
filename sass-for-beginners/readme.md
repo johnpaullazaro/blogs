@@ -29,6 +29,8 @@ sass source/stylesheets/index.scss build/stylesheets/index.css
 ## Variables
 Creating your first variable in SASS. 
 Variable is basically a holder of value that you can assign to different attribute everytime you needed the value of it.
+In the demo below we have intiate a variable $primary-color and assigned #333 value to it . Which #333 is a hexadecimal value representing color.
+Then we have used the variable $primary-color in the body to represent the background to #333.
 <br><br>
 styles.sass
 ```sass
