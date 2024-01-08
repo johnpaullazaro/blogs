@@ -34,18 +34,7 @@ body
   background-color: $primary-color
 ```
 
-
-## Inheritance
-To generate open cmd / cli then follow the command below
-```
-sass source/stylesheets/index.scss build/stylesheets/index.css
-```
-
-## Mixins
-To generate open cmd / cli then follow the command below
-```
-sass source/stylesheets/index.scss build/stylesheets/index.css
-```
+ 
 
 
 
