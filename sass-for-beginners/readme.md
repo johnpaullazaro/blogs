@@ -1,5 +1,5 @@
 
-<img src="https://sass-lang.com/assets/img/logos/logo.svg" width="200" height="100">
+<img src="https://sass-lang.com/assets/img/logos/logo.svg" width="600" height="600">
 
 # Learn SASS
 In this article, you will learn SASS and its basic features such as variables, inheritance and mixins.
