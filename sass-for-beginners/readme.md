@@ -11,8 +11,12 @@ To get started with SASS you have to install it.
 Via NPM
 
 ```
-sass source/stylesheets/index.scss build/stylesheets/index.css
+npm install -g sass
 ```
 
+Generate CSS from SASS
+```
+sass source/stylesheets/index.scss build/stylesheets/index.css
+```
 
 
