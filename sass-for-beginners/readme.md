@@ -19,7 +19,7 @@ npm install -g sass
 
 
 
-## Generate CSS from SASS
+## Generating CSS from SASS via SASS CLI
 ```
 sass source/stylesheets/index.scss build/stylesheets/index.css
 ```
