@@ -27,7 +27,6 @@ sass source/stylesheets/index.scss build/stylesheets/index.css
 
 
 ## Variables
-To generate open cmd / cli then follow the command below
 ```sass
 $primary-color: #333
 
