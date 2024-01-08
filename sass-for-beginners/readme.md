@@ -34,10 +34,7 @@ Then we have used the variable $primary-color in the body to represent the backg
 <br><br>
 styles.sass
 ```sass
-$primary-color: #333
 
-body 
-  background-color: $primary-color
 ```
 <br><br>
  
@@ -48,27 +45,27 @@ body
 
 <table>
 <tr>
-<th> Good </th>
-<th> Bad </th>
+<th> SASS </th>
+<th> SCSS </th>
 </tr>
 <tr>
 <td>
 
 ```c++
-int foo() {
-    int result = 4;
-    return result;
-}
+$primary-color: #333
+
+body 
+  background-color: $primary-color
 ```
 
 </td>
 <td>
 
 ```c++
-int foo() { 
-    int x = 4;
-    return x;
-}
+$primary-color: #333
+
+body 
+  background-color: $primary-color
 ```
 
 </td>
