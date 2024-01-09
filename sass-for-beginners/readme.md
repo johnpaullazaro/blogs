@@ -37,7 +37,8 @@ Then we have used the variable $primary-color in the body to represent the backg
 <table>
 <tr>
 <th> SASS </th>
-<th> SCSS </th>
+<th> SCSS </th> 
+<th> CSS </th>
 </tr>
 <tr>
 <td>
@@ -56,6 +57,16 @@ $primary-color: #333;
 
 body { 
   background-color: $primary-color;
+}
+```
+
+</td>
+<td>
+ 
+```css  
+
+body { 
+  background-color: #333;
 }
 ```
 
