@@ -1,8 +1,6 @@
 
 <img src="https://sass-lang.com/assets/img/logos/logo.svg" width="200" height="200">
-Author : Jp Lazaro 
-
-<br> <a href="https://www.youtube.com/@CodeWithSirJp">Youtube.com/@codewithsirjp</a>
+Author : Jp Lazaro  
 
 
 # Learn SASS
