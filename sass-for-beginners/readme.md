@@ -1,5 +1,8 @@
 
 <img src="https://sass-lang.com/assets/img/logos/logo.svg" width="200" height="200">
+Author : Jp Lazaro 
+Youtube.com/@codewithsirjp
+
 
 # Learn SASS
 In this article, you will learn SASS and its basic features such as variables, inheritance and mixins.
