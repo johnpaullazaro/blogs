@@ -76,7 +76,12 @@ body {
 </tr>
 </table>
 
+## Example 2
+In this section, we will create a variable that we will use 
+to multiple tags. 
 
+
+ 
 
 
 
