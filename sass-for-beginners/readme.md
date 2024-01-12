@@ -76,6 +76,8 @@ body {
 </tr>
 </table>
 
+<br><br>
+
 ## Use one variable for multiple html tags
 In this section, we will create a variable that we will use to multiple tags.
 For example, you want to create a website that will have a common padding to all the containers like cards,  alerts and panel. 
