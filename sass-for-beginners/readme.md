@@ -101,16 +101,26 @@ padding : $global-padding
 .alert
 padding : $global-padding
 
+.panel
+padding : $global-padding
 ```
  
 </td>
 <td>
  
 ```css 
-$primary-color: #333;
+$global-padding: 16px;
 
-body { 
-  background-color: $primary-color;
+.card {
+padding : $global-padding
+}
+
+.alert{
+padding : $global-padding
+}
+
+.panel {
+padding : $global-padding
 }
 ```
 
@@ -118,9 +128,18 @@ body {
 <td>
  
 ```css  
+ 
 
-body { 
-  background-color: #333;
+.card {
+padding : 16px;
+}
+
+.alert{
+padding : 16px;
+}
+
+.panel {
+padding : 16px;
 }
 ```
 
