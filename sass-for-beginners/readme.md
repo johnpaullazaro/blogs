@@ -43,14 +43,12 @@ Then we have used the variable $primary-color in the body to represent the backg
 <th> CSS </th>
 </tr>
 <tr>
-<td>
- 
-```css
+<td> 
+``` css
 $primary-color: #333
 body 
   background-color: $primary-color
-```
- 
+``` 
 </td>
 <td>
  
@@ -92,7 +90,7 @@ No need to change the padding for each container.
 </tr>
 <tr>
 <td>
-```css
+```
  
 $global-padding: 16px
 
@@ -104,6 +102,7 @@ $global-padding: 16px
 
 .panel
  padding : $global-padding
+ 
 ```
 </td>
 <td>
