@@ -92,7 +92,7 @@ No need to change the padding for each container.
 </tr>
 <tr>
 <td>
-```sass
+```css
  
 $global-padding: 16px
 
@@ -109,18 +109,6 @@ $global-padding: 16px
 <td>
 ```css
 
-$global-padding: 16px;
-
-.card {
-padding : $global-padding
-}
-
-.alert{
-padding : $global-padding
-}
-.panel {
-padding : $global-padding
-}
 
 ```
 </td>
@@ -128,14 +116,7 @@ padding : $global-padding
 ```css 
  
 .card {
-padding : 16px;
-}
-.alert{
-padding : 16px;
-}
-.panel {
-padding : 16px;
-}
+ 
 
 ```
 </td>
