@@ -90,19 +90,11 @@ No need to change the padding for each container.
 </tr>
 <tr>
 <td>
-```
- 
-$global-padding: 16px
+```css  
 
-.card
- padding : $global-padding
-
-.alert
- padding : $global-padding
-
-.panel
- padding : $global-padding
- 
+body { 
+  background-color: #333;
+}
 ```
 </td>
 <td>
