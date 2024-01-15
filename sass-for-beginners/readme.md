@@ -107,7 +107,6 @@ padding : $global-padding
  
 </td>
 <td>
- 
 ```css 
 $global-padding: 16px;
 
@@ -123,13 +122,9 @@ padding : $global-padding
 padding : $global-padding
 }
 ```
-
 </td>
 <td>
- 
 ```css  
- 
-
 .card {
 padding : 16px;
 }
