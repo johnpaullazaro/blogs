@@ -107,18 +107,10 @@ $global-padding: 16px
 ```
 </td>
 <td>
-```css
-
-
-```
+ x
 </td>
 <td>
-```css 
- 
-.card {
- 
-
-```
+ x
 </td>
 </tr>
 </table>
