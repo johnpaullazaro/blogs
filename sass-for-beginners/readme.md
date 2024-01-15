@@ -83,6 +83,7 @@ In this section, we will create a variable that we will use to multiple tags.
 For example, you want to create a website that will have a common padding to all the containers like cards,  alerts and panel. 
 This way you can standardize the breathing space (padding) in your app. Also, if  want to change the padding size of the padding just change the value of padding and that's it.
 No need to change the padding for each container. 
+
 <table>
 <tr>
 <th> SASS </th>
@@ -92,6 +93,7 @@ No need to change the padding for each container.
 <tr>
 <td>
 ```css
+ 
 $global-padding: 16px
 
 .card
@@ -105,21 +107,26 @@ padding : $global-padding
 ```
 </td>
 <td>
-```css 
+```css
+
 $global-padding: 16px;
+
 .card {
 padding : $global-padding
 }
+
 .alert{
 padding : $global-padding
 }
 .panel {
 padding : $global-padding
 }
+
 ```
 </td>
 <td>
-```css  
+```css 
+ 
 .card {
 padding : 16px;
 }
@@ -129,6 +136,7 @@ padding : 16px;
 .panel {
 padding : 16px;
 }
+
 ```
 </td>
 </tr>
