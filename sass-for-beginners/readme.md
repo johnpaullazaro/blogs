@@ -51,7 +51,7 @@ body
 ```
 </td>
 <td>
-```css 
+```css
 $primary-color: #333;
 body { 
   background-color: $primary-color;
@@ -59,7 +59,7 @@ body {
 ```
 </td>
 <td> 
-```css  
+```css
 body { 
   background-color: #333;
 }
