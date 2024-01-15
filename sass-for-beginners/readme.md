@@ -94,7 +94,8 @@ No need to change the padding for each container.
 
 body { 
   background-color: #333;
-}
+} 
+
 ```
 </td>
 <td>
