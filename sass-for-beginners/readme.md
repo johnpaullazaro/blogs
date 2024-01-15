@@ -91,7 +91,6 @@ No need to change the padding for each container.
 </tr>
 <tr>
 <td>
- 
 ```css
 $global-padding: 16px
 
@@ -137,7 +136,6 @@ padding : 16px;
 padding : 16px;
 }
 ```
-
 </td>
 </tr>
 </table>
