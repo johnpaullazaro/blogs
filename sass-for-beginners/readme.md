@@ -103,20 +103,16 @@ padding : $global-padding
 .panel
 padding : $global-padding
 ```
- 
 </td>
 <td>
 ```css 
 $global-padding: 16px;
-
 .card {
 padding : $global-padding
 }
-
 .alert{
 padding : $global-padding
 }
-
 .panel {
 padding : $global-padding
 }
@@ -127,11 +123,9 @@ padding : $global-padding
 .card {
 padding : 16px;
 }
-
 .alert{
 padding : 16px;
 }
-
 .panel {
 padding : 16px;
 }
