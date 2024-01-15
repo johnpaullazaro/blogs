@@ -90,13 +90,7 @@ No need to change the padding for each container.
 </tr>
 <tr>
 <td>
-```css  
-
-body { 
-  background-color: #333;
-} 
-
-```
+ x
 </td>
 <td>
  x
