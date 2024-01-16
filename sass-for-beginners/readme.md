@@ -59,10 +59,8 @@ body {
 ```
 </td>
 <td> 
-```css
-body { 
-  background-color: #333;
-}
+```
+sass source/stylesheets/index.scss build/stylesheets/index.css
 ```
 </td>
 </tr>
