@@ -43,26 +43,26 @@ Then we have used the variable $primary-color in the body to represent the backg
 <th> CSS </th>
 </tr>
 <tr>
-<td> 
-```css
-$primary-color: #333
-body 
-  background-color: $primary-color
-```
-</td>
-<td>
-```css
-$primary-color: #333;
-body { 
-  background-color: $primary-color;
-}
-```
-</td>
-<td> 
-```
-sass source/stylesheets/index.scss build/stylesheets/index.css
-```
-</td>
+ <td> 
+ ```css
+ $primary-color: #333
+ body 
+   background-color: $primary-color
+ ```
+ </td>
+ <td>
+ ```css
+ $primary-color: #333;
+ body { 
+   background-color: $primary-color;
+ }
+ ```
+ </td>
+ <td> 
+ ```
+   source/stylesheets/index.scss build/stylesheets/index.css
+ ```
+ </td>
 </tr>
 </table>
 
