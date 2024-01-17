@@ -49,21 +49,7 @@ Then we have used the variable $primary-color in the body to represent the backg
  body 
    background-color: $primary-color
  ```
- </td>
- <td>
-  ```
-{
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
-}
-```
- </td>
- <td> 
- ```
-   source/stylesheets/index.scss build/stylesheets/index.css
- ```
- </td>
+ </td>  
 </tr>
 </table>
 
