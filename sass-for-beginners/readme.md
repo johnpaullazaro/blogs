@@ -57,6 +57,13 @@ Then we have used the variable $primary-color in the body to represent the backg
    background-color: $primary-color;
  }
  ```
+  ```
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
  </td>
  <td> 
  ```
