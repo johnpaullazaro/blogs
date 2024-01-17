@@ -34,7 +34,7 @@ Variable is basically a holder of value that you can assign to different attribu
 In the table below we have intiated a variable $primary-color and assigned #333 value to it . Where #333 is a hexadecimal value representing color.
 Then we have used the variable $primary-color in the body to represent the background to #333.
 <br><br>
- > [!TIP]
+> [!TIP]
 > Please think a more descriptive variable name as possible
 <table>
 <tr>
