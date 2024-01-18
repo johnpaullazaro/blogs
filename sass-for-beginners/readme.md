@@ -79,7 +79,8 @@ size of the padding just change the value of padding and that's it. No need to c
 <div class="alert">I'm alert<div>
 
 ```
-
+ 
+### SASS
 ```html
 $global-padding: 14px
 
