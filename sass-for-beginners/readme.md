@@ -50,7 +50,7 @@ Then we have used the variable $primary-color in the body to represent the backg
  body {
    background-color: $primary-color
 }
-
+```
 
 ### SCSS 
 ```
