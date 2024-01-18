@@ -110,3 +110,16 @@ $global-padding: 14px;
  padding: $global-padding;
 }
 ```
+
+### SCSS
+```css 
+.panel {
+ padding: 14px;
+}	
+.card {
+ padding: 14px;
+}	
+.alert {
+ padding: 14px;
+}
+```
