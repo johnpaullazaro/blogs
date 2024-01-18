@@ -95,3 +95,18 @@ $global-padding: 14px
 
 ```
 
+
+### SCSS
+```css
+$global-padding: 14px;
+
+.panel {
+ padding: $global-padding;
+}	
+.card {
+ padding: $global-padding;
+}	
+.alert {
+ padding: $global-padding;
+}
+```
