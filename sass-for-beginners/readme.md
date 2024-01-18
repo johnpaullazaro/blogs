@@ -53,7 +53,7 @@ Then we have used the variable $primary-color in the body to represent the backg
 
 
 ### SCSS 
-``` 
+```
  body {
    background-color:  #333;
 }
