@@ -72,19 +72,25 @@ size of the padding just change the value of padding and that's it. No need to c
 
 ### HTML 
 ```html
-<div class="panel">
-I'm panel
-</div>
+<div class="panel">I'm panel</div>
 
-<div class="card">
-I'm card
-</div>
+<div class="card">I'm card</div>
 
-<div class="alert">
-I'm alert
-<div>
+<div class="alert">I'm alert<div>
 
 ```
 
+```html
+$global-padding: 14px
 
+.panel
+	padding: $global-padding
+	
+.card
+	padding: $global-padding
+	
+.alert 
+padding: $global-padding 
+
+```
 
