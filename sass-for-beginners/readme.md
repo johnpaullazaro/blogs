@@ -36,6 +36,16 @@ Then we have used the variable $primary-color in the body to represent the backg
 <br><br>
 > [!TIP]
 > Please think a more descriptive variable name as possible
+
+### SASS 
+```
+ $primary-color: #333
+ body 
+   background-color: $primary-color
+```
+
+
+
 <table>
 <tr>
 <th> SASS </th>
@@ -45,9 +55,7 @@ Then we have used the variable $primary-color in the body to represent the backg
 <tr>
  <td> 
  ``` css
- $primary-color: #333
- body 
-   background-color: $primary-color
+
  ```
  </td>  
 </tr>
