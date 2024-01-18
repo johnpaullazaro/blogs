@@ -81,17 +81,17 @@ size of the padding just change the value of padding and that's it. No need to c
 ```
  
 ### SASS
-```html
+```css
 $global-padding: 14px
 
 .panel
-	padding: $global-padding
+ padding: $global-padding
 	
 .card
-	padding: $global-padding
+ padding: $global-padding
 	
 .alert 
-padding: $global-padding 
+ padding: $global-padding 
 
 ```
 
