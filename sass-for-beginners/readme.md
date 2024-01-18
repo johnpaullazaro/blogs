@@ -43,13 +43,19 @@ Then we have used the variable $primary-color in the body to represent the backg
  body 
    background-color: $primary-color
 ```
-
-
+ 
 ### SCSS 
 ```
  $primary-color: #333;
  body {
    background-color: $primary-color
+}
+
+
+### SCSS 
+``` 
+ body {
+   background-color:  #333;
 }
 ```
 
