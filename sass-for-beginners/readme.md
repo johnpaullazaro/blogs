@@ -111,8 +111,8 @@ $global-padding: 14px;
 }
 ```
 
-### SCSS
-```css 
+### CSS
+```css
 .panel {
  padding: 14px;
 }	
