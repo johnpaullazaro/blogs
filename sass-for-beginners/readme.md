@@ -82,7 +82,7 @@ I'm card
 
 <div class="alert">
 I'm alert
-<div>![image](https://github.com/johnpaullazaro/blogs/assets/91587717/009addff-4922-425a-a9ff-01f896ebe6b6)
+<div>
 
 ```
 
