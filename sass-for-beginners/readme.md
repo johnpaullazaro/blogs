@@ -124,6 +124,7 @@ $global-padding: 14px;
 }
 ```
 
+<br><br>
 
 ## Nesting
 In CSS, in order for you to style nested html elements you have to follow the CSS nesting syntax which has many curly braces.
