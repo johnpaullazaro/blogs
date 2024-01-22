@@ -123,3 +123,11 @@ $global-padding: 14px;
  padding: 14px;
 }
 ```
+
+
+## Nesting
+In CSS, in order for you to style nested html elements you have to follow the CSS nesting syntax which has many curly braces.
+When your styles is getting bigger and larger nesting styles quite hard to maintain as there is no way to group related styles in CSS.
+In SASS / SCSS nesting styles is pretty easy. It allows you to group your nested styles into more readable and maintainable way.
+In the below example you will see how to organize your nested styles properly in SASS/SCSS.
+
