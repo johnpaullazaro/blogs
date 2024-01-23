@@ -137,8 +137,8 @@ For example, you have a card which has card title , card description and card th
 In CSS here is the code to style nested html elements.
 ```css
 .card {
-width:100%;
-height:auto;
+ width:100%;
+ height:auto;
 }	
 .card .title {
   font-size:24px;
@@ -147,8 +147,8 @@ height:auto;
   font-size:15px;
 }
 .card .thumbnail {
-   background-image:url('');
-   width:100%;
-   height:150px;
+ background-image:url('');
+ width:100%;
+ height:150px;
 }
 ```
