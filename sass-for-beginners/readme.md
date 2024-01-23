@@ -132,3 +132,23 @@ When your styles is getting bigger and larger nesting styles quite hard to maint
 In SASS / SCSS nesting styles is pretty easy. It allows you to group your nested styles into more readable and maintainable way.
 In the below example you will see how to organize your nested styles properly in SASS/SCSS.
 
+### CSS
+For example, you have a card which has card title , card description and card thumbnail image. 
+In CSS here is the code to style nested html elements.
+```css
+.card {
+width:100%;
+height:auto;
+}	
+.card .title {
+  font-size:24px;
+}	
+.card .description {
+  font-size:15px;
+}
+.card .thumbnail {
+   background-image:url('');
+   width:100%;
+   height:150px;
+}
+```
