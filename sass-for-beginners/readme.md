@@ -152,3 +152,28 @@ In CSS here is the code to style nested html elements.
  height:150px;
 }
 ```
+
+
+###SASS
+```css
+.card 
+ width:100%
+ height:auto
+ 	
+ .card .title  
+  font-size:24px
+	
+ .card .description 
+  font-size:15px
+
+ .card .thumbnail 
+  background-image:url('')
+  width:100%
+  height:150px
+
+```
+
+
+
+
+
