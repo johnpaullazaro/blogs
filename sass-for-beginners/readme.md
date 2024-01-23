@@ -155,6 +155,9 @@ In CSS here is the code to style nested html elements.
 
 
 ### SASS
+Below is the code in SASS, as you can see below. As SASS does not have curly braces, tbis is how it looks when we do nesting in SASS.
+A very neat and clean implementation. Please take note that you need to indent the child for SASS to read it properly.
+
 ```css
 .card 
  width:100%
