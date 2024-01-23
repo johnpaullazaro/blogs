@@ -163,13 +163,13 @@ A very neat and clean implementation. Please take note that you need to indent t
  width:100%
  height:auto
  	
- .card .title  
+  .title  
   font-size:24px
 	
- .card .description 
+ .description 
   font-size:15px
 
- .card .thumbnail 
+ .thumbnail 
   background-image:url('')
   width:100%
   height:150px
