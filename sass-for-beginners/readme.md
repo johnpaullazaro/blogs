@@ -198,6 +198,8 @@ Below is the implementation of Nesting using SCSS
   height:150px }
 }
 ```
+You’ll notice that the .title, description, and thumbnail selectors are nested inside the .card selector. This is a great way to organize your styles and make it more readable and easy to find.
+
 
 
 
