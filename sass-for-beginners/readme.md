@@ -234,6 +234,7 @@ File name :  `_card.sass`
 
 ```
 In `main.sass`  /  `styles.sass` just use the below command to use card partial class `_card.sass` .
+<br>
 File name :  styles.sass or main.sass
 ```css
  @use 'card'
