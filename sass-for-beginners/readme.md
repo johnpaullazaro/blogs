@@ -233,7 +233,7 @@ File name :  `_card.sass`
   height:150px
 
 ```
-To use the  `_card.sass` partial sass . Just add the line below to your `main.sass`  /  `styles.sass`
+In `main.sass`  /  `styles.sass` just use the below command to use card partial class `_card.sass` .
 File name :  styles.sass or main.sass
 ```css
  @use 'card'
