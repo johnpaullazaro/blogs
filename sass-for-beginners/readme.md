@@ -204,3 +204,52 @@ You’ll notice that the .title, description, and thumbnail selectors are nested
 
 
 
+
+<br><br>
+
+## Partial / Modularize	 
+When your app is getting bigger the stylesheet is also getting bigger. Due to this, maintaining your CSS is quite challenging and time consuming.
+For example, if you want to update the style of card you have to go through your long styles.css
+and find the card related codes that you have to change. In SASS / SCSS, you can create a partial sass. 
+You can create _card.sass where you can put all the card related styles and attached it to your main sass file.
+To import it to your main class just simply follow 
+<br>
+
+File name :  _card.sass
+```css
+.card 
+ width:100%
+ height:auto
+ 	
+  .title  
+  font-size:24px
+	
+ .description 
+  font-size:15px
+
+ .thumbnail 
+  background-image:url('')
+  width:100%
+  height:150px
+}
+```
+Keep in mind that for you to create a partial class you have to use underscore ( _filename.sass / _filename.scss ) at the beginning of your partial class name. In the example above "_card.sass" is being imported to "main.sass". Partial sass is basically a sass file that allows you to modularize your styles and keep things separated and easier to maintain. Having a partial sass allows you to share style funtionality across your application
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
