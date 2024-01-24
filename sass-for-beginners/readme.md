@@ -215,7 +215,7 @@ You can create _card.sass where you can put all the card related styles and atta
 To import it to your main class just simply follow 
 <br>
 
-File name :  _card.sass
+File name :  `_card.sass`
 ```css
 .card 
  width:100%
@@ -233,7 +233,7 @@ File name :  _card.sass
   height:150px
 
 ```
-To use the _card.sass partial sass . Just add the line below to your main.sass / styles.sass
+To use the  `_card.sass` partial sass . Just add the line below to your `main.sass`  /  `styles.sass`
 File name :  styles.sass or main.sass
 ```css
  @use 'card'
