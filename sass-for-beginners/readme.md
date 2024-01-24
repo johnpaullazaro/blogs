@@ -176,6 +176,28 @@ A very neat and clean implementation. Please take note that you need to indent t
 
 ```
 
+### SCSS
+In SCSS, it is quite the same with CSS with curly braces. Some people wants this kind of implementation as they still want to you curly brances. 
+SCSS will group your nested styles using curcly brace. As parent style, you need to enclosed the child styles inside your curcly braces.
+Below is the implementation of Nesting using SCSS
+
+```css
+.card  {
+ width:100%
+ height:auto
+ 	
+  .title {
+  font-size:24px }
+	
+ .description  {
+  font-size:15px }
+
+ .thumbnail {
+  background-image:url('')
+  width:100%
+  height:150px }
+}
+```
 
 
 
