@@ -231,7 +231,7 @@ File name :  _card.sass
   background-image:url('')
   width:100%
   height:150px
-}
+
 ```
 Keep in mind that for you to create a partial class you have to use underscore ( _filename.sass / _filename.scss ) at the beginning of your partial class name. In the example above "_card.sass" is being imported to "main.sass". Partial sass is basically a sass file that allows you to modularize your styles and keep things separated and easier to maintain. Having a partial sass allows you to share style funtionality across your application
 
