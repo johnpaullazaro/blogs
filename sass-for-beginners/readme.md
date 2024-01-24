@@ -239,7 +239,7 @@ File name :  styles.sass or main.sass
 ```css
  @use 'card'
 ```
-Keep in mind that for you to create a partial class you have to use underscore ( _filename.sass / _filename.scss ) at the beginning of your partial class name. In the example above "_card.sass" is being imported to "main.sass". Partial sass is basically a sass file that allows you to modularize your styles and keep things separated and easier to maintain. Having a partial sass allows you to share style funtionality across your application. Using partial class "_card.sass" it is very easy to maintain, if you need to change the card styles you can just simple go to card.sass and do your changes without affecting the other styles.
+Keep in mind that for you to create a partial class you have to use underscore ( _filename.sass / _filename.scss ) at the beginning of your partial class name. In the example above "_card.sass" is being imported to "main.sass". Partial sass is basically a sass file that allows you to modularize your styles and keep things separated and easier to maintain. Having a partial sass allows you to share style funtionality across your application. Using partial class "_card.sass" it is very easy to maintain, if you need to change the card styles you can just simply go to card.sass and do your changes without affecting the other styles. You can also create folder to organize and group your partial classes according to their purpose.
 
 
 
