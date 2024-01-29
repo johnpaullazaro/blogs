@@ -253,6 +253,10 @@ All partial class will be merged to main.css as one file after compiling the sas
 
 
 
+<br><br>
+
+## Mixins
+SASS allows you to reuse block of code to create customizable and dynamic styling. Using mixins, you are able to have a function to customize your styles. You can have paramters and control your styles accordingly.
 
 
 
