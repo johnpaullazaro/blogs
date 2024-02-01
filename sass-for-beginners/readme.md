@@ -259,11 +259,23 @@ All partial class will be merged to main.css as one file after compiling the sas
 SASS allows you to reuse block of code to create customizable and dynamic styling. Using mixins, you are able to have a function to customize your styles. You can have paramters and control your styles accordingly.
 <br>
 Let's use mixins and create a style for tags.Tags could have many variations of sizes it could be small, medium, large. Also tags, sometimes could have close button. All of these you can achieve through mixins.
+<br>
+## sass 
+```css
+  .alert {
+}
+```
+## scss 
+```css
+  .alert {
+}
+```
 
-
-
-
-
+## css  
+```css
+  .alert {
+} 
+```
 
 
 
