@@ -260,18 +260,18 @@ SASS allows you to reuse block of code to create customizable and dynamic stylin
 <br>
 Let's use mixins and create a style for tags.Tags could have many variations of sizes it could be small, medium, large. Also tags, sometimes could have close button. All of these you can achieve through mixins.
 <br>
-## sass 
+## SASS 
 ```css
   .alert {
 }
 ```
-## scss 
+## SCSS 
 ```css
   .alert {
 }
 ```
 
-## css  
+## CSS
 ```css
   .alert {
 } 
