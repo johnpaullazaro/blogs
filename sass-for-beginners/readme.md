@@ -256,24 +256,77 @@ All partial class will be merged to main.css as one file after compiling the sas
 <br><br>
 
 ## Mixins
-SASS allows you to reuse block of code to create customizable and dynamic styling. Using mixins, you are able to have a function to customize your styles. You can have paramters and control your styles accordingly.
+SASS allows you to reuse block of code to create customizable and dynamic styling. Using mixins, you are able to have a function to customize your styles. You can have paramters and control your styles implementation accordingly.
 <br>
-Let's use mixins and create a style for tags.Tags could have many variations of sizes it could be small, medium, large. Also tags, sometimes could have close button. All of these you can achieve through mixins.
+Let's use mixins and create a style for alerts. Alerts could have many variations of sizes it could be small, medium, large. You can also change color. All of these you can achieve through mixins.
+<br>
+In the below example, We have created 5 different styles for 5 alert classes, alert-default, alert-primary.. alert-danger shares the same mixins funtionality.
 <br>
 ## SASS 
 ```css
-  .alert {
-}
+  @mixin alert($bg: DarkGray) 
+  background: $bg; 
+  color: #fff;
+ 
+.alert-default 
+  @include alert;
+
+.alert-primary 
+  @include theme($bg: blue)
+
+.alert-sucesss 
+  @include theme($bg: DarkGreen)
+
+.alert-danger 
+  @include theme($bg: red)
+
+.alert-warning 
+  @include theme($bg: orange)
 ```
 ## SCSS 
 ```css
-  .alert {
+@mixin alert($bg: DarkGray){
+  background: $bg; 
+  color: #fff;
+ }
+.alert-default {
+  @include alert;
+}
+.alert-primary {
+  @include theme($bg: blue)
+}
+.alert-sucesss {
+  @include theme($bg: DarkGreen)
+}
+.alert-danger {
+  @include theme($bg: red)
+}
+.alert-warning {
+  @include theme($bg: orange)
 }
 ```
 
 ## CSS
 ```css
-  .alert {
+.alert-default { 
+background: DarkGray; 
+color: #fff;
+}
+.alert-primary { 
+background: blue; 
+color: #fff;
+}
+.alert-sucesss {
+background: DarkGreen; 
+color: #fff;
+}
+.alert-danger { 
+background: red; 
+color: #fff;
+}
+.alert-warning {
+background: orange; 
+color: #fff;
 } 
 ```
 
