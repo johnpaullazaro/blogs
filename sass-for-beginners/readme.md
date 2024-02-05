@@ -264,7 +264,7 @@ In the below example, We have created 5 different styles for 5 alert classes, al
 <br>
 ## SASS 
 ```css
-  @mixin alert($bg: DarkGray) 
+@mixin alert($bg: DarkGray) 
   background: $bg; 
   color: #fff;
  
@@ -290,7 +290,7 @@ In the below example, We have created 5 different styles for 5 alert classes, al
   color: #fff;
  }
 .alert-default {
-  @include alert;
+  @include alert
 }
 .alert-primary {
   @include theme($bg: blue)
