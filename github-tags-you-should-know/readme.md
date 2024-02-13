@@ -1,1 +1,5 @@
-# Github commands that you should know
+# Git commands that you should know
+
+<br><br>
+
+## Clone a repository
