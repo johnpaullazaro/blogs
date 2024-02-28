@@ -7,3 +7,7 @@ Before you start learning C# you should install and download the following
 2. Dotnet sdk
 3. C# Devkit in vscode extension
 
+## What is CSharp?
+
+
+## What is .NET?
