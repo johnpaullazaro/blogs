@@ -11,3 +11,4 @@ Before you start learning C# you should install and download the following
 
 
 ## What is .NET?
+.NET is a platform maintained by Microsoft 
