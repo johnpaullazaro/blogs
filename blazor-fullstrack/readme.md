@@ -11,7 +11,7 @@
 
 Blazor allows developer fto build faster web apps
 
-Blazor in DOTNET 8
+## Blazor in DOTNET 8
 1. Has advance server side
 2. Enhance navigation and form handling
 3. Streaming rendering
