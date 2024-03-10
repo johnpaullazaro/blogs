@@ -77,6 +77,23 @@ Component.razor - @rendermode InteractiveServer
 <Component @rendermode="InteractiveServer" />
 
 
+## Creating New Blazor Project
+``
+    dotnet new blazor -o BlazorApp
+``
+
+To run the application
+``
+    dotnet run 
+``
+
+
+
+
+
+
+
+
 
 
 
