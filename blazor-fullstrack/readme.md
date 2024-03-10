@@ -89,12 +89,16 @@ To run the application
 ``
 
 
+<br><br>
 
 ## Component Parameter
+
+RAZOR
 ```
    <Component ParameterVariable="" /> 
 ```
 
+CS
 ```component.razor.cs
     [Parameter]
     public string int { get; set; }
