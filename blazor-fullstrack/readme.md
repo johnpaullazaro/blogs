@@ -76,6 +76,7 @@ demo -> browser > netwrok> websocket. it open and closes the interactive compone
 Component.razor - @rendermode InteractiveServer
 <Component @rendermode="InteractiveServer" />
 
+<br><br>
 
 ## Creating New Blazor Project
 ``
@@ -89,6 +90,16 @@ To run the application
 
 
 
+## Component Parameter
+```
+   <Component ParameterVariable="" /> 
+```
+
+```component.razor.cs
+    [Parameter]
+    public string int { get; set; }
+    
+```
 
 
 
