@@ -69,6 +69,14 @@ it should work as we expect.
 
 
 
+## Interactive Component
+by default in SSR, do not have interactivity. if you want to make them interactive.
+demo -> browser > netwrok> websocket. it open and closes the interactive components.
+
+Component.razor - @rendermode InteractiveServer
+<Component @rendermode="InteractiveServer" />
+
+
 
 
 
