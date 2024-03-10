@@ -18,3 +18,15 @@ Blazor allows developer fto build faster web apps
 4. Enable interactivity
 
 
+## Static Server Side Rendering ( SSR )
+.NET APP < ---- > BROWSER 
+
+### what is SSR?
+no web socket.
+no neeed to download web assembly files
+presenting information, read only public website. 
+navigation links 
+forms 
+not good in rich interactivity
+not good in realtinme updates
+
