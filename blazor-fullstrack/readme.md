@@ -34,3 +34,35 @@ not good in realtinme updates
 Server / Web Assembly  global interactivity   |  SSR, per page/ component interactibvity
 
 
+@attribute [Streaming Rendering]
+blazor knows, all tasks, and send
+
+FEATURES OF SSR
+
+Good - Allows you to fast initial ui/render update , 123456
+Good - Begin loading static resources in parallel
+Requires UI Design to make sense. 
+
+
+## Enhanced Navigation
+Feel faster , get a SPA like without needing a SPA
+Few http request
+Retain most DOM Elements 
+Enable/Disable on any DOM subtree
+
+
+Demo
+home --> about
+about  -->home 
+``RETAINING DOM
+<code data-permanent>
+    html retained
+</code>
+``
+
+
+
+
+
+
+
