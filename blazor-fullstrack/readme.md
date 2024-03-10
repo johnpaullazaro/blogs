@@ -30,3 +30,7 @@ forms
 not good in rich interactivity
 not good in realtinme updates
 
+.NET 3.8+                |    .NET 8
+Server / Web Assembly  global interactivity   |  SSR, per page/ component interactibvity
+
+
