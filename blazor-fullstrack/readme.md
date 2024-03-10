@@ -49,7 +49,7 @@ Feel faster , get a SPA like without needing a SPA
 Few http request
 Retain most DOM Elements 
 Enable/Disable on any DOM subtree
-
+<form Enhance //> 
 
 Demo
 home --> about
@@ -59,6 +59,13 @@ about  -->home
     html retained
 </code>
 ``
+
+
+## Form Validation
+
+Need to provide formname FormName="create-movie" 
+<form Enhance 
+it should work as we expect.
 
 
 
