@@ -15,7 +15,7 @@ install-package Microsoft.EntityFrameworkCore.SQLServer
 
 ### Create a model
 
-`` 
+```csharp
   public class Blog
 {
     public int BlogId { get; set; }
@@ -34,5 +34,5 @@ public class Post
     public Blog Blog { get; set; }
 }
 
-``
+```
 
