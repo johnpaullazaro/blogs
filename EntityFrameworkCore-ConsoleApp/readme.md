@@ -2,6 +2,28 @@
 
 
 # Entity Framework Core
+<br><br>
+
+
+
+## Creating new application
+### .NET CORE CLI
+``
+dotnet new console -o myApp
+cd myApp
+``
+### Visual Studio 2023
+1) Open Visual Studio
+2) Click new project
+3) Select console App
+4) Enter myApp
+
+``
+install-package Microsoft.EntityFrameworkCore.SQLServer
+``
+
+
+
 
 ## Install EF Core
 ### .NET CORE CLI
