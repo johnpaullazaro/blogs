@@ -58,3 +58,28 @@ public class Post
 
 ```
 
+
+<br>
+
+### DB Context
+Create new cs file and put the code below
+```csharp
+ public class context : DbContext
+ {
+
+     public context(DbContextOptions<context> options) : base(options)
+     {
+
+     }
+
+     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+     {
+         optionsBuilder.UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=blazorApp;");
+
+     }
+
+
+     public DbSet<Event> Events { get; set; } 
+
+ }
+```
