@@ -83,3 +83,11 @@ Create new cs file and put the code below
 
  }
 ```
+
+
+## Install EFCore Tools to migrate Database
+
+``
+Install-Package Microsoft.EntityFrameworkCore.Tools
+``
+
