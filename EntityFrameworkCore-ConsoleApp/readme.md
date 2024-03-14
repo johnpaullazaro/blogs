@@ -15,7 +15,7 @@ install-package Microsoft.EntityFrameworkCore.SQLServer
 
 ### Create a model
 
-``c#
+`` 
   public class Blog
 {
     public int BlogId { get; set; }
