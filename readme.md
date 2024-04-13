@@ -1,6 +1,6 @@
 # About Me
-I am JP Lazaro. 
-A backend developer based in Singapore
+I am JP Lazaro. A .NET Fullstack Developer
+based in Singapore
 
 # Featured Articles
 SASS for beginners
